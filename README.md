@@ -42,3 +42,5 @@ Property :
 PS C:\Users\Administrator>
 ```
 [wevtutil qe /?](https://github.com/r1skkam/TryHackMe-Windows-Event-Logs/blob/main/wevtutil%20qe)
+
+[wevtutil qe Application /c:3 /rd:true /f:text](https://github.com/r1skkam/TryHackMe-Windows-Event-Logs/blob/main/wevtutil%20qe%20Application%20c3%20rdtrue%20ftext)
