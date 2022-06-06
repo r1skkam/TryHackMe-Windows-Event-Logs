@@ -140,3 +140,22 @@ wevtutil COMMAND /?
 
 C:\Users\Administrator>
 ```
+[wevtutil el](https://github.com/r1skkam/TryHackMe-Windows-Event-Logs/blob/main/wevtutil%20el)
+
+[Measure-Object (Microsoft.PowerShell.Utility) - PowerShell | Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object?view=powershell-7.2)
+
+```
+PS C:\Users\Administrator> wevtutil el |Measure-Object
+
+
+Count    : 1071
+Average  :
+Sum      :
+Maximum  :
+Minimum  :
+Property :
+
+
+
+PS C:\Users\Administrator>
+```
