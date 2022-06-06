@@ -1,0 +1,47 @@
+PS C:\Users\Administrator> wevtutil qe Application /c:3 /rd:true /f:text
+Event[0]:
+  Log Name: Application
+  Source: Microsoft-Windows-Security-SPP
+  Date: 2022-06-06T07:31:56.856
+  Event ID: 16384
+  Task: N/A
+  Level: Information
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: WIN-1O0UJBNP9G7
+  Description:
+Successfully scheduled Software Protection service for re-start at 2022-06-13T14:07:56Z. Reason: RulesEngine.
+
+Event[1]:
+  Log Name: Application
+  Source: Microsoft-Windows-Security-SPP
+  Date: 2022-06-06T07:31:23.287
+  Event ID: 16394
+  Task: N/A
+  Level: Information
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: WIN-1O0UJBNP9G7
+  Description:
+Offline downlevel migration succeeded.
+
+Event[2]:
+  Log Name: Application
+  Source: Desktop Window Manager
+  Date: 2022-06-06T07:22:25.955
+  Event ID: 9027
+  Task: N/A
+  Level: Information
+  Opcode: N/A
+  Keyword: Classic
+  User: N/A
+  User Name: N/A
+  Computer: WIN-1O0UJBNP9G7
+  Description:
+The Desktop Window Manager has registered the session port.
+
+PS C:\Users\Administrator>
