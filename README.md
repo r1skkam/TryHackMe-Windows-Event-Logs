@@ -18,6 +18,8 @@ There are 3 main ways of accessing these event logs within a Windows system:
 
 [dir](https://github.com/r1skkam/TryHackMe-Windows-Event-Logs/blob/main/dir)
 
+[whoami /priv](https://github.com/r1skkam/TryHackMe-Windows-Event-Logs/blob/main/whoami%20priv)
+
 [wevtutil](https://github.com/r1skkam/TryHackMe-Windows-Event-Logs/blob/main/wevtutil)
 
 [wevtutil el](https://github.com/r1skkam/TryHackMe-Windows-Event-Logs/blob/main/wevtutil%20el)
