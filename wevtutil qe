@@ -1,0 +1,64 @@
+PS C:\Users\Administrator> wevtutil qe /?
+Read events from an event log, log file or using structured query.
+
+Usage:
+
+wevtutil { qe | query-events } <PATH> [/OPTION:VALUE [/OPTION:VALUE] ...]
+
+<PATH>
+By default, you provide a log name for the <PATH> parameter. However, if you use
+the /lf option, you must provide the path to a log file for the <PATH> parameter.
+If you use the /sq parameter, you must provide the path to a file containing a
+structured query.
+
+Options:
+
+You can use either the short (for example, /f) or long (for example, /format)
+version of the option names. Options and their values are not case-sensitive.
+
+/{lf | logfile}:[true|false]
+If true, <PATH> is the full path to a log file.
+
+/{sq | structuredquery}:[true|false]
+If true, <PATH> is the full path to a file that contains a structured query.
+
+/{q | query}:VALUE
+VALUE is an XPath query to filter events read. If not specified, all events will
+be returned. This option is not available when /sq is true.
+
+/{bm | bookmark}:VALUE
+VALUE is the full path to a file that contains a bookmark from a previous query.
+
+/{sbm | savebookmark}:VALUE
+VALUE is the full path to a file in which to save a bookmark of this query. The
+file extension should be .xml.
+
+/{rd | reversedirection}:[true|false]
+Event read direction. If true, the most recent events are returned first.
+
+/{f | format}:[XML|Text|RenderedXml]
+The default value is XML. If Text is specified, prints events in an
+easy to read text format, rather than in XML format. If RenderedXml, prints
+events in XML format with rendering information. Note that printing events in
+Text or RenderedXml formats is slower than printing in XML format.
+
+/{l | locale}:VALUE
+VALUE is a locale string to print event text in a specific locale. Only available
+when printing events in text format using the /f option.
+
+/{c | count}:<n>
+Maximum number of events to read.
+
+/{e | element}:VALUE
+When outputting event XML, include a root element to produce well-formed XML.
+VALUE is the string you want within the root element. For example, specifying
+/e:root would result in output XML with the root element pair <root></root>.
+
+
+Example:
+
+The following example displays the three most recent events from the Application
+log in text format.
+
+wevtutil qe Application /c:3 /rd:true /f:text
+PS C:\Users\Administrator>
