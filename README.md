@@ -16,46 +16,8 @@ There are 3 main ways of accessing these event logs within a Windows system:
 ## Task 3 wevtutil.exe
 [wevtutil | Microsoft Docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/wevtutil)
 
-```
+[dir](https://github.com/r1skkam/TryHackMe-Windows-Event-Logs/blob/main/dir)
 
-
-C:\Users\Administrator>whoami
-win-1o0ujbnp9g7\administrator
-
-C:\Users\Administrator>whoami /priv
-
-PRIVILEGES INFORMATION
-----------------------
-
-Privilege Name                            Description                                                        State
-========================================= ================================================================== ========
-SeIncreaseQuotaPrivilege                  Adjust memory quotas for a process                                 Disabled
-SeSecurityPrivilege                       Manage auditing and security log                                   Disabled
-SeTakeOwnershipPrivilege                  Take ownership of files or other objects                           Disabled
-SeLoadDriverPrivilege                     Load and unload device drivers                                     Disabled
-SeSystemProfilePrivilege                  Profile system performance                                         Disabled
-SeSystemtimePrivilege                     Change the system time                                             Disabled
-SeProfileSingleProcessPrivilege           Profile single process                                             Disabled
-SeIncreaseBasePriorityPrivilege           Increase scheduling priority                                       Disabled
-SeCreatePagefilePrivilege                 Create a pagefile                                                  Disabled
-SeBackupPrivilege                         Back up files and directories                                      Disabled
-SeRestorePrivilege                        Restore files and directories                                      Disabled
-SeShutdownPrivilege                       Shut down the system                                               Disabled
-SeDebugPrivilege                          Debug programs                                                     Disabled
-SeSystemEnvironmentPrivilege              Modify firmware environment values                                 Disabled
-SeChangeNotifyPrivilege                   Bypass traverse checking                                           Enabled
-SeRemoteShutdownPrivilege                 Force shutdown from a remote system                                Disabled
-SeUndockPrivilege                         Remove computer from docking station                               Disabled
-SeManageVolumePrivilege                   Perform volume maintenance tasks                                   Disabled
-SeImpersonatePrivilege                    Impersonate a client after authentication                          Enabled
-SeCreateGlobalPrivilege                   Create global objects                                              Enabled
-SeIncreaseWorkingSetPrivilege             Increase a process working set                                     Disabled
-SeTimeZonePrivilege                       Change the time zone                                               Disabled
-SeCreateSymbolicLinkPrivilege             Create symbolic links                                              Disabled
-SeDelegateSessionUserImpersonatePrivilege Obtain an impersonation token for another user in the same session Disabled
-
-C:\Users\Administrator>
-```
 [wevtutil](https://github.com/r1skkam/TryHackMe-Windows-Event-Logs/blob/main/wevtutil)
 
 [wevtutil el](https://github.com/r1skkam/TryHackMe-Windows-Event-Logs/blob/main/wevtutil%20el)
